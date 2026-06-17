@@ -57,3 +57,34 @@ a {
   border-radius: 5px;
   font-weight: bold;
 }
+h4 {
+  color: white;
+  margin: 80px 0;
+  font-size: 1.2rem;
+}
+.customer-page__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.customer-page__buttons .first {
+  color: #f0394b;
+  background-color: black;
+  border: 3px solid #f0394b;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.customer-page__buttons .second {
+  color: #8af1aa;
+  background-color: black;
+  border: 3px solid #8af1aa;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  cursor: pointer;
+}
