@@ -15,7 +15,7 @@ function AddCustomerPage() {
     const saveHandler = () => { }
 
     const cancelHandler = () => { }
-    
+
     return (
         <div className="customer-page">
             <h4>Add New Customer</h4>
