@@ -62,6 +62,73 @@ h4 {
   margin: 80px 0;
   font-size: 1.2rem;
 }
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  color: #57aac8;
+}
+
+.form-input label {
+  margin-bottom: 10px;
+}
+
+.form-input input {
+  background-color: #262836;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+h4 {
+  color: white;
+  margin: 80px 0;
+  font-size: 1.2rem;
+}
+
+.item-list {
+  border: 2px solid #262836;
+  padding: 10px;
+  margin: 50px 0;
+  border-radius: 10px;
+}
+
+.item-list p {
+  color: white;
+  font-size: 1.2rem;
+}
+.item-list button {
+  border: 1px solid #8af1aa;
+  color: #8af1aa;
+  background-color: black;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.form-input__list {
+  border: 2px solid #262836;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.form-input__list div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input__list button {
+  border: 1px solid #f0394b;
+  color: #f0394b;
+  margin-top: 20px;
+  padding: 5px;
+}
 .customer-page__buttons {
   display: flex;
   justify-content: space-between;
